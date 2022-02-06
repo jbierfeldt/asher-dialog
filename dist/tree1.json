@@ -1,0 +1,67 @@
+[
+    {
+        "event": 1,
+        "mes": "Welcome to the game.",
+        "res": [
+            {
+                "mes": "Thank you",
+                "next": 2
+            },
+            {
+                "mes": "What game?",
+                "next": 3
+            }
+        ]
+    },
+    {
+        "event": 2,
+        "mes": "You are welcome.",
+        "res": [
+            {
+                "mes": "So what's this all about?",
+                "next": 4
+            },
+            {
+                "mes": "Thanks...",
+                "next": "end"
+            }
+        ]
+    },
+    {
+        "event": 3,
+        "mes": "The game you are playing now.",
+        "res": [
+            {
+                "mes": "Oh, so what's this all about then?",
+                "next": 4
+            },
+            {
+                "mes": "Oh, very insightful. Thanks...",
+                "next": "end"
+            }
+        ]
+    },
+    {
+        "event": 4,
+        "mes": "This is a test game to see how Will's website could work.",
+        "res": [
+            {
+                "mes": "Oh, I get it. So this is kind of like a tech demo?",
+                "next": 5
+            },
+            {
+                "mes": "Oh, cool. Thanks for the help!",
+                "next": "end"
+            }
+        ]
+    },
+    {
+        "event": 5,
+        "mes": "Precisely!",
+        "chain": "end"
+    },
+    {
+        "event": "end",
+        "mes": "Goodbye."
+    }
+]

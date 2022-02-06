@@ -1,0 +1,189 @@
+[
+  {
+    "event": 1.1,
+    "mes": "Hey, can I talk to you for a second?",
+    "res": [
+      {
+        "mes": "Yeah, of course. What's up?",
+        "next": 2.1
+      },
+      {
+        "mes": "Um, yeah. Sure.",
+        "next": 2.2
+      }
+    ]
+  },
+  {
+    "event": 2.1,
+    "mes": "I just...don't really know what we're doing. Every time you come over it's like...",
+    "res": [
+      {
+        "mes": "...hard to tell what's going on. I know.",
+        "next": 3.1
+      },
+      {
+        "mes": "It's like what?",
+        "next": 3.2
+      }
+    ]
+  },
+  {
+    "event": 2.2,
+    "mes": "I mean...it's just like, how long are we going to keep doing this?",
+    "res": [
+      {
+        "mes": "I know. It's confusing.",
+        "next": 3.3
+      },
+      {
+        "mes": "You know we can stop whenever you want, right?",
+        "next": 3.4
+      }
+    ]
+  },
+  {
+    "event": 3.1,
+    "mes": "Yeah. I never know what's going to happen, like whether you're going to stay over or what.",
+    "res": [
+      {
+        "mes": "I'm sorry. I know I need to be clearer about my intentions.",
+        "next": 4.1
+      },
+      {
+        "mes": "It's just been really hard for me to figure out what I want.",
+        "next": 4.2
+      }
+    ]
+  },
+    {
+    "event": 3.2,
+    "mes": "Well, it's just been confusing to me what you want out of this.",
+    "res": [
+      {
+        "mes": "Yeah, it's just been really hard for me to figure out what I want.",
+        "next": 4.2
+      },
+      {
+        "mes": "Well, I don't really know what you want either.",
+        "next": 4.3
+      }
+    ]
+  },
+    {
+    "event": 3.3,
+    "mes": "I just don't know how sustainable it is. For me, for both of us.",
+    "res": [
+      {
+        "mes": "You're probably right about that.",
+        "next": 4.1
+      },
+      {
+        "mes": "Well, do you think we should stop?",
+        "next": 4.3
+      }
+    ]
+  },
+    {
+    "event": 3.4,
+    "mes": "If we can stop whenever we want, then why haven't we?",
+    "res": [
+      {
+        "mes": "Coming over is...easy. Even if we both know it makes things harder.",
+        "next": 4.1
+      },
+      {
+        "mes": "Why haven't you brought this up before?",
+        "next": 4.4
+      }
+    ]
+  },
+    {
+    "event": 4.1,
+    "mes": "Maybe you need to figure out what you want out of this. It feels like it's hurting both of us.",
+    "res": [
+      {
+        "mes": "Yeah, I can't do this anymore. I should probably go.",
+        "next": 6.2
+      },
+      {
+        "mes": "I just...really want to stay tonight. If that's ok with you.",
+        "next": 5.1
+      }
+    ]
+  },
+    {
+    "event": 4.2,
+    "mes": "I don't know if I can help you if you don't know what you want.",
+    "res": [
+      {
+        "mes": "I just...really want to stay tonight. Just tonight. If that's ok with you.",
+        "next": 5.1
+      },
+      {
+        "mes": "Yeah, I can't do this anymore. I should probably go.",
+        "next": 6.2
+      }
+    ]
+  },
+    {
+    "event": 4.3,
+    "mes": "Maybe we need to take a break. It feels like it's hurting both of us.",
+    "res": [
+      {
+        "mes": "I know but...I think I want to stay tonight. Just tonight. If that's ok with you.",
+        "next": 5.1
+      },
+      {
+        "mes": "Yeah, I mean. That makes sense. I should probably go.",
+        "next": 6.2
+      }
+    ]
+  },
+    {
+    "event": 4.4,
+    "mes": "I just...couldn't. Fuck. I'm sorry. I think you need to go. I'm sorry.",
+    "res": [
+      {
+        "mes": "Yeah. Ok, I should go.",
+        "next": 6.2
+      },
+      {
+        "mes": "Please just let me stay tonight. Please.",
+        "next": 6.3
+      }
+    ]
+  },
+    {
+    "event": 5.1,
+    "mes": "I mean. Probably not a great idea. But I guess we're here already.",
+    "res": [
+      {
+        "mes": "I'll put my stuff down.",
+        "next": 6.1
+      },
+      {
+        "mes": "No, you're right. I think I have to go.",
+        "next": 6.2
+      }
+    ]
+  },
+  {
+    "event": 6.1,
+    "mes": "I'm gonna take a shower...hey, do you think this will ever be, you know - over?",
+    "chain": "end"
+  },
+  {
+    "event": 6.2,
+    "mes": "It's probably for the best. Stay warm out there...oh, and text me when you get home.",
+    "chain": "end"
+  },
+  {
+    "event": 6.3,
+    "mes": "I'm sorry. I can't do this. Maybe it's finally over.",
+    "chain": "end"
+  },
+  {
+    "event": "end",
+    "mes": "// The Part, by Asher Blank. Out 2/11. //"
+  }
+]

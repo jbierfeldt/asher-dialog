@@ -43,7 +43,7 @@
             </div>
             <div class="response-container" v-if="isEnded">
               <div @click="spotifyLink" class="response-option">
-                > Pre-save on Spotify.
+                > Listen on Spotify.
               </div>
               <div @click="websiteLink" class="response-option">
                 > back to asherblank.com
@@ -136,7 +136,10 @@ export default defineComponent({
       };
     },
     spotifyLink(): void {
-      window.open("https://bit.ly/3Gh5LBF", "_blank");
+      window.open(
+        "https://open.spotify.com/album/5ywv7RpLHsLXneY8L2SpN3?si=9OlWEdAzQiqVa24wB_6PMg",
+        "_blank"
+      );
     },
     websiteLink(): void {
       window.location.href = "https://asherblank.com";
